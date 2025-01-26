@@ -38,6 +38,9 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    kotlinOptions {
+        jvmTarget = '1.8' // Or '17' if you're targeting JVM 17
+    }
 }
 
 dependencies {
